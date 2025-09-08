@@ -1,0 +1,30 @@
+{
+  "name": "drainer-front-run",
+  "version": "1.0.0",
+  "description": "If your wallet connected to drainer, this script can help you to remove some tokens or interact with some smart contracts.",
+  "keywords": [
+    "drainer"
+  ],
+  "homepage": "https://github.com/b0gdaniy/drainer-front-run#readme",
+  "bugs": {
+    "url": "https://github.com/b0gdaniy/drainer-front-run/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/b0gdaniy/drainer-front-run.git"
+  },
+  "license": "ISC",
+  "author": "@b0gdaniy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^0.6.2",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "dotenv": "^17.2.2",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.13.0"
+  }
+}
